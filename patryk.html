@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal o Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="sekcja">
+    <h2 id="logowo">Logowanie</h2>
+    <input type="text" id="login" placeholder="Podaj login">
+    <button onclick="zaloguj()">Zaloguj się</button>
+    <p id="powitanie"></p>
+    
+ <h2>Hasło dnia:</h2>
+    <p id="cytat"></p>
+   
+
+    <h2>Szukaj:</h2>
+    <input type="text" id="szukaj" placeholder="Wpisz nazwę" onkeyup="wyszukaj()">
+
+    <div id="lista"></div>
+
+    <button onclick="zmienTlo()">Zmień kolor tła</button>
+    <div class="navbar">
+    <div class="logo">Portal o grze Minecraft</div>
+    
+
+    <script src="script.js"></script>
+    </section>
+</body>
+</html>
